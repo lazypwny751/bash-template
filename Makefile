@@ -1,5 +1,5 @@
-PREFIX	:= /usr/share
-SRCDIR	:= $(PREFIX)/project
+PREFIX	:= /usr
+SRCDIR	:= $(PREFIX)/share/project
 
 define setup
 	mkdir -p $(SRCDIR)
